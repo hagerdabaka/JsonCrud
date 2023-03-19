@@ -1,0 +1,85 @@
+{
+  "company": [
+    {
+      "id": 1,
+      "name": "Sarah sokary",
+      "email": "sarah@gmail.com",
+      "empCount": "88",
+      "revenue": "44000",
+      "address": "Egypt-Munofia",
+      "isActive": true
+    },
+    {
+      "name": "Tarek Dabaka",
+      "email": "dabaka34@gmail.com",
+      "empCount": "34",
+      "revenue": "26000",
+      "address": "Egypt-Munofia",
+      "isActive": true,
+      "id": 2
+    },
+    {
+      "name": "Tarek Dabaka",
+      "email": "dabaka34@gmail.com",
+      "empCount": "34",
+      "revenue": "26000",
+      "address": "Egypt-Munofia",
+      "isActive": true,
+      "id": 3
+    },
+    {
+      "name": "Tarek Dabaka",
+      "email": "dabaka34@gmail.com",
+      "empCount": "34",
+      "revenue": "26000",
+      "address": "Egypt-Munofia",
+      "isActive": true,
+      "id": 4
+    },
+    {
+      "name": "Tarek Dabaka",
+      "email": "dabaka34@gmail.com",
+      "empCount": "34",
+      "revenue": "26000",
+      "address": "Egypt-Munofia",
+      "isActive": true,
+      "id": 5
+    },
+    {
+      "name": "Tarek Dabaka",
+      "email": "dabaka34@gmail.com",
+      "empCount": "34",
+      "revenue": "26000",
+      "address": "Egypt-Munofia",
+      "isActive": true,
+      "id": 6
+    },
+    {
+      "name": "Tarek Dabaka",
+      "email": "dabaka34@gmail.com",
+      "empCount": "34",
+      "revenue": "26000",
+      "address": "Egypt-Munofia",
+      "isActive": true,
+      "id": 7
+    },
+    {
+      "name": "Tarek Dabaka",
+      "email": "dabaka34@gmail.com",
+      "empCount": "34",
+      "revenue": "26000",
+      "address": "Egypt-Munofia",
+      "isActive": true,
+      "id": 8
+    },
+    {
+      "name": "farag dabaka",
+      "email": "farag@gmail.com",
+      "empCount": "66",
+      "revenue": "45000",
+      "address": "Egypt -munofia",
+      "isActive": true,
+      "id": 9
+    }
+  ]
+}

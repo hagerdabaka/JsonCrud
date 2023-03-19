@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin:  1rem 3rem ;
+}
+
+
+.light{
+    width: 46px;
+    height: 46px;
+    background-image: url(https://assets.codepen.io/1462889/sun.svg);
+    background-color: #48dbfb;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 200ms linear;
+    border-radius: 50%;
+    display: block;
+    transform: rotate(360deg);
+    border: none;
+    position: absolute;
+}
+.dark{
+    width: 46px;
+    height: 46px;
+    background-color: #102770;
+    background-image: url(https://assets.codepen.io/1462889/moon.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 200ms linear;
+    border-radius: 50%;
+    display: block;
+    transform: rotate(360deg);
+    border: none;
+    position: absolute;
+
+}
+
+body{
+
+  background-color: var(--color-bg);
+  color: var(--color-font);
+}
+
+.header{
+  background-color: var(--color-bg);
+  color: var(--color-font);
+  position: relative;
+  margin-left: 80% ;
+  margin-bottom: 1%;
+  padding: 1% 1%;
+  
+}

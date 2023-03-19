@@ -1,0 +1,79 @@
+
+// // Custom Theming for Angular Material
+// // For more information: https://material.angular.io/guide/theming
+// @use '@angular/material' as mat;
+// // Plus imports for other components in your app.
+
+// // Include the common styles for Angular Material. We include this here so that you only
+// // have to load a single css file for Angular Material in your app.
+// // Be sure that you only ever include this mixin once!
+// @include mat.core();
+
+// // Define the palettes for your theme using the Material Design palettes available in palette.scss
+// // (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// // hue. Available color palettes: https://material.io/design/color/
+// $jsonCrud-primary: mat.define-palette(mat.$indigo-palette);
+// $jsonCrud-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// // The warn palette is optional (defaults to red).
+// $jsonCrud-warn: mat.define-palette(mat.$red-palette);
+
+// // Create the theme object. A theme consists of configurations for individual
+// // theming systems such as "color" or "typography".
+// $jsonCrud-theme: mat.define-light-theme((
+//   color: (
+//     primary: $jsonCrud-primary,
+//     accent: $jsonCrud-accent,
+//     warn: $jsonCrud-warn,
+//   )
+// ));
+// $jsonCrud-theme-dark: mat.define-dark-theme((
+//   color: (
+//     primary: $jsonCrud-primary,
+//     accent: $jsonCrud-accent,
+//     warn: $jsonCrud-warn,
+//   )
+// ));
+
+// .theme-light{
+
+//   @include mat.all-component-themes($jsonCrud-theme);
+// }
+// .theme-dark{
+//   @include mat.all-component-themes($jsonCrud-theme-dark);
+// }
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+
+
+
+
+
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/alertifyjs/build/css/alertify.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/default.min.css';
+
+html, body { height: 100%; 
+  background-color: var(--color-bg);
+  color: var(--color-font);
+  }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root{
+  --color-bg:white;
+  --color-font:rgb(29, 29, 29);
+  --color-font2:rgb(104, 104, 104);
+  --color-bg2:white;
+}
+
+[data-theme="dark"]{
+  --color-bg:rgb(29, 29, 29);
+  --color-font: rgb(231, 231, 231);
+  --color-font2:rgb(185, 185, 185);
+  --color-bg2:#323232;
+
+}
+

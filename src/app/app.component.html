@@ -1,0 +1,12 @@
+<nav class="header">
+    <a (click)= modeToggle() class="m-5" *ngIf="isDark">
+        <div class="light"></div> 
+    </a>
+    <a   (click)= modeToggle() class="m-5"  *ngIf="!isDark">
+        <div class="dark"></div> 
+    </a>
+    <!-- <mat-slide-toggle [formControl]="togglControl"></mat-slide-toggle> -->
+
+</nav>
+<br>
+<app-company></app-company>
